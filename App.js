@@ -1,12 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import * as Native from 'react-native';
+import Animated ,{SlideInDown,SlideInUp} from 'react-native-reanimated';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Native.View style={styles.container}>
+      
+    </Native.View>
   );
 }
 
@@ -18,3 +17,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+ 
